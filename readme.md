@@ -27,7 +27,7 @@ $ python get_data.py -m d -s labels -t direction
 - region
 - direction
 
-## 3. model 存储模型
+## 3. model 运行模型
 
 1. 在config.yaml中设置路径：（以下为默认路径，具体按需更改）
 
