@@ -79,6 +79,8 @@ def batch_edge_extract(in_dir,out_dir):
     i = 1 
     for img in tqdm(os.listdir(in_dir)):
         i+=1
+        if 'png' not in img:
+            continue
         crt_img = os.path.join(in_dir, img)
         out_img = os.path.join(out_dir, img)
         if os.path.exists(out_img):
